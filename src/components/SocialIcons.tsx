@@ -1,6 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub, faGoogle, faInstagram, faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faInstagram, faTwitter } from "@fortawesome/free-brands-svg-icons";
 
 import { LINKS } from "@utils/constant";
 
@@ -17,16 +17,7 @@ const SocialIcons = () => {
           <FontAwesomeIcon icon={faTwitter} />
         </a>
       </li>
-      <li>
-        <a href={LINKS.Google} rel="noreferrer">
-          <FontAwesomeIcon icon={faGoogle} />
-        </a>
-      </li>
-      <li>
-        <a href={LINKS.Github} rel="noreferrer">
-          <FontAwesomeIcon icon={faGithub} />
-        </a>
-      </li>
+     
     </ul>
   );
 };
