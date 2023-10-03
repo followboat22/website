@@ -83,7 +83,7 @@ const FeaturesSection = ({ title, slice, item }: IFeaturesSection) => {
           )}
           <div className="featured-project-showcase text-center">
             <Row>
-              {features.map(({ image, title, subTitle, description }, index) => {
+              {features.map(({ image, title,description }, index) => {
                 return (
                   <Col
                     md={6}
@@ -105,10 +105,7 @@ const FeaturesSection = ({ title, slice, item }: IFeaturesSection) => {
                           width="0"
                         />
                       </div>
-                      <h5>
-                        <span className="content-block__sub-title">{subTitle}</span>
-                        {title}
-                      </h5>
+                     
                     </Link>
                   </Col>
                 );
