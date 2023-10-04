@@ -99,9 +99,10 @@ const Navbar = () => {
   const navItems = [
     { to: "/", label: "Home" },
     // { to: "/pricing", label: "Pricing" },
-    { to: "/portfolio", label: "Portfolio" },
-    { to: "/about", label: "About" },
-    { to: "/studies", label: "Case Studies" },
+    { to: "/portfolio", label: "D2C Services" },
+    { to: "/about", label: "B2B Services" },
+    { to: "/studies", label: " References" },
+    { to: "/studies", label: " Contact Us" },
   ];
 
   const navDropdown = [
@@ -150,13 +151,13 @@ const Navbar = () => {
                   </li>
                 );
               })}
-              <li className="nav-item dropdown" key={6}>
+              {/* <li className="nav-item dropdown" key={6}>
                 <a
                   className="nav-link dropdown-opener"
                   onClick={handleDropdown}
                   href="#dropdown?toggle"
                 >
-                  Services
+                  Contact Us
                 </a>
                 <div className="custom-dropdown-menu" ref={dropdownMenuRef}>
                   {navDropdown.map((item, index) => {
@@ -172,7 +173,7 @@ const Navbar = () => {
                     );
                   })}
                 </div>
-              </li>
+              </li> */}
             </ul>
           </Bar.Collapse>
         </Container>
